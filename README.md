@@ -24,6 +24,7 @@ labwork_03_knn_svm/
 │   └── main.py                <-- Main orchestrator and execution script
 ├── README.md                  <-- Project documentation and final report
 └── requirements.txt           <-- Dependency list (pandas, scikit-learn, etc.)
+```
 
 ---
 
