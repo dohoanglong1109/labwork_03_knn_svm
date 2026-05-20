@@ -1,4 +1,4 @@
-# Cycle 02: K-NN & SVM Classification on Medical and Chemical Data
+# K-Nearest Neighbor and Support Vector Machine Classifiers
 
 ## Objective
 
@@ -24,3 +24,19 @@ labwork_03_knn_svm/
 │   └── main.py                <-- Main orchestrator and execution script
 ├── README.md                  <-- Project documentation and final report
 └── requirements.txt           <-- Dependency list (pandas, scikit-learn, etc.)
+
+---
+
+## How to Run
+
+To replicate the experimental results and automatically generate the analytical figures in the `outputs/` directory, execute the following commands in your terminal environment:
+
+```bash
+# 1. Navigate into the labwork directory
+cd labwork_03_knn_svm
+
+# 2. Install the required external packages
+pip install -r requirements.txt
+
+# 3. Run the main orchestration script
+python src/main.py
